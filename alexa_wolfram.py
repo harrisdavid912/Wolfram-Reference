@@ -102,7 +102,7 @@ def get_welcome_response():
 def get_WolfRam(intent, session):
     session_attributes = {}
     # To get appid, sign up at https://developer.wolframalpha.com/portal/apisignup.html
-    app_id = "enter your app id"
+    app_id = "H58XTL-TU28E8AG55"
 
     query = intent['slots']['response'].get('value')
     query = query.replace(' ', '%20')
